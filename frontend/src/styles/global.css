@@ -1,0 +1,27 @@
+/* global.css */
+
+:root {
+  --primary-color: #d32323; /* Yelp red */
+  --secondary-color: white;
+  --font-color: #333;
+  --button-hover-color: #b71c1c; /* Darker red for hover */
+  --font-family: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--secondary-color);
+  color: var(--font-color);
+}
+
+button {
+  font-family: var(--font-family);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+.pac-container {
+  z-index: 10000 !important;
+}

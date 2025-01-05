@@ -1,0 +1,44 @@
+/* Header.css */
+.header {
+    background-color: #d32323; /* Yelp red */
+    color: white;
+    box-shadow: none;
+  }
+  
+  .header-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .header-logo-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .header-title {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .header-menu button {
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .header-business-btn {
+    background-color: white;
+    color: #d32323;
+    font-weight: bold;
+  }
+  
+  .header-business-btn:hover {
+    background-color: #f5f5f5;
+  }
+  
