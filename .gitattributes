@@ -1,69 +1,20 @@
-# Frontend (React and JavaScript)
-*.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
-*.ts linguist-language=TypeScript
-*.tsx linguist-language=TypeScript
-*.json linguist-language=JSON
-*.html linguist-language=HTML
-*.css linguist-language=CSS
-*.scss linguist-language=SCSS
-*.module.css linguist-language=CSS
+# Frontend files (React and Material-UI)
+frontend/src/* linguist-vendored=false
+frontend/src/*.js linguist-language=JavaScript
+frontend/src/*.jsx linguist-language=JavaScript
+frontend/src/**/*.css linguist-vendored=false
+frontend/public/* linguist-vendored=true
 
-# Material-UI specific
-*.js linguist-language=JavaScript
-*.jsx linguist-language=JavaScript
-*.tsx linguist-language=TypeScript
-*.ts linguist-language=TypeScript
-*.css linguist-language=CSS
-*.scss linguist-language=SCSS
-*.module.css linguist-language=CSS
+# Backend files (Node.js, Express, Sequelize, and PostgreSQL)
+backend/**/*.js linguist-language=JavaScript
+backend/models/*.js linguist-language=SQL
+backend/config/*.js linguist-language=SQL
+backend/routes/*.js linguist-language=JavaScript
 
-# Backend (Node.js and PostgreSQL)
-*.js linguist-language=JavaScript
-*.ts linguist-language=TypeScript
-*.sql linguist-language=SQL
-*.json linguist-language=JSON
-*.env linguist-vendored
+# General files
+*.js linguist-detectable=true
+*.json linguist-detectable=false
 
-# PostgreSQL-specific files
-*.sql linguist-language=SQL
-*.psql linguist-language=SQL
-
-# Docker and deployment
-Dockerfile linguist-language=Dockerfile
-*.dockerfile linguist-language=Dockerfile
-*.yml linguist-language=YAML
-*.yaml linguist-language=YAML
-
-# Exclude build and public directories
-/build/* linguist-vendored
-/node_modules/* linguist-vendored
-/public/* linguist-vendored
-
-# Testing files
-*.test.js linguist-vendored
-*.test.jsx linguist-vendored
-*.test.ts linguist-vendored
-*.test.tsx linguist-vendored
-*.spec.js linguist-vendored
-*.spec.jsx linguist-vendored
-*.spec.ts linguist-vendored
-*.spec.tsx linguist-vendored
-
-# Images and assets
-*.png linguist-vendored
-*.jpg linguist-vendored
-*.jpeg linguist-vendored
-*.gif linguist-vendored
-*.svg linguist-vendored
-*.ttf linguist-vendored
-*.woff linguist-vendored
-*.woff2 linguist-vendored
-
-# Documentation
+# Ensure README and configuration files are not vendored
 *.md linguist-documentation
-*.txt linguist-documentation
-
-# Miscellaneous
-*.lock linguist-vendored
-*.log linguist-vendored
+*.env linguist-generated
