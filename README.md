@@ -12,7 +12,6 @@ Welcome to **Restaurant Finder**! This application provides a robust platform fo
 - [Usage](#usage)
 - [State Management](#state-management)
 - [API Endpoints](#api-endpoints)
-- [Screenshots](#screenshots)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
